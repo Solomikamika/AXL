@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"> 
+    <meta name="robots" content="none">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">  
+    <title>document</title>    
+    <script src="https://use.fontawesome.com/7d86cafe01.js"></script>    
+</head>
+<body>      
+    <header class="panorama">
+        <div class="header">
+            <figure class="logo">            
+                <img class="axl-logo" src="images/axl.png">
+                <figcaption class="axl-name"><span class="axl-name_style">@</span>pp</figcaption>
+            </figure>
+            <div class="menu">
+                <a href="#" class="menu__item">Home</a>
+                <a href="#" class="menu__item">portfolio</a>
+                <a href="#" class="menu__item">services</a>
+                <a href="#" class="menu__item">contacts</a>            
+            </div>
+        </div>
+        <h3 class="slogan">for digital transformation</h3>
+        <div id="carousel-wrapper" class="center-section">
+            <div class="header-bnts">            
+                <button id="btn_up" class="fa-angle circle_up"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
+                <button id="btn_down" class="fa-angle circle_down"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+            </div>
+            <div id="articles" class="logo-main">
+                <div class="slider-articles">
+                    <div id="article01" class="main-article">
+                        <h1 class="title">Axleapps</h1>
+                        <p class="description">Web studio offers a high-quality product 
+                            in the IT field for various areas of business</p>
+                    </div>
+                    <div id="article02" class="main-article">  
+                        <h1 class="title">article02</h1>  
+                        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div id="article03" class="main-article">
+                        <h1 class="title">article03</h1>    
+                        <p class="description">Minima sit tempore id totam facilis deserunt rem cum 
+                            eius quo facere error et unde consectetur ea dolorum sunt, nemo earum doloribus?</p>
+                    </div>
+                </div>    
+            </div>            
+            <div class="data">
+                <span class="data__first">01</span><span class="data__second">/03</span>
+            </div>         
+        </div>
+        <div class="btns"> 
+            <div class="dropdown">
+                <button class="btn1">
+                    <span class="btn_desc">Subscribe</span>
+                    <span class="btn_play"><i class="fa fa-play" aria-hidden="true"></i></span>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">instaram</a>
+                    <a href="#">facebook</a>
+                    <a href="#">youtube</a>
+                </div>
+            </div>
+        </div>    
+    </header>
+    <section class="services">
+        <div class="background_btn">        
+            <button id="services_prew" class="fa-angle circle_up"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+        </div>
+        <div class="background_btn-right"> 
+            <button id="services_next" class="fa-angle circle_down"><i class="fa fa-angle-right" aria-hidden="true"></i></button>      
+        </div>
+        <div id="services_container">
+        <div class="services-block services-block__first">
+            <div class="services-block_upper">
+                <span class="services-block_number">01</span>
+                <img class="s-b_pict" src="images/earth.svg" style="width: 60px; height: 60px;">
+            </div>
+            <h3 class="s-b_title">Website Development</h3>
+            <button id="btn01" class="s-b_description active">Read More</button>
+            <div id="wrapper01" class="services-block_middle">                
+                <p class="s-b_description s-b_description-active">Information site for a firm,
+                    company, agency.</p>           
+                <button class="btn1 s-b_btn">
+                    <span class="btn_desc">Read More</span>
+                    <span class="btn_play s-b_btn-play"><i class="fa fa-play" aria-hidden="true"></i></span>
+                </button>
+            </div>
+        </div>
+        <div class="services-block services-block active">
+            <div class="services-block_upper">
+                <span class="services-block_number">02</span>
+                <div class="gradient-circle">
+                    <img class="s-b_pict pict_circle" src="images/play.svg" style="width: 60px; height: 60px;">
+                </div>    
+            </div>            
+            <h3 class="s-b_title">Landing Page</h3>            
+            <p id="wrapper-modal" class="s-b_description s-b_description-active">A one-page 
+                site for selling a service or a small amount of goods to the target audience.</p>           
+            <button id="btn-more" class="btn1 s-b_btn active">
+                <span class="btn_desc">Read More</span>
+                <span class="btn_play s-b_btn-play"><i class="fa fa-play" aria-hidden="true"></i></span>
+            </button>           
+        </div>        
+        <div class="services-block">
+            <div class="services-block_upper">
+                <span class="services-block_number">03</span>
+                <img class="s-b_pict" src="images/bag.png" style="width: 60px; height: 60px;">
+            </div>            
+            <h3 class="s-b_title">Shop Development</h3>
+            <button id="btn03" class="s-b_description active">Read More</button>
+            <div id="wrapper03" class="services-block_middle">                
+                <p class="s-b_description s-b_description-active">A resource for selling goods
+                    via the Internet.</p>           
+                <button class="btn1 s-b_btn">
+                    <span class="btn_desc">Read More</span>
+                    <span class="btn_play s-b_btn-play"><i class="fa fa-play" aria-hidden="true"></i></span>
+                </button>
+            </div>
+        </div>
+        <div class="services-block">
+            <div class="services-block_upper">
+                <span class="services-block_number">04</span>
+                <img class="s-b_pict" src="images/target.png" style="width: 60px; height: 60px;">
+            </div>           
+            <h3 class="s-b_title">Contextual Advertising</h3>
+            <button id="btn04" class="s-b_description active">Read More</button>
+            <div id="wrapper04" class="services-block_middle">                
+                <p class="s-b_description s-b_description-active">A wide range of tools that allow
+                    you to contact users
+                    at different stages of the sales funnel</p>           
+                <button class="btn1 s-b_btn">
+                    <span class="btn_desc">Read More</span>
+                    <span class="btn_play s-b_btn-play"><i class="fa fa-play" aria-hidden="true"></i></span>
+                </button>
+            </div>
+        </div>
+        <div class="services-block">
+            <div class="services-block_upper">
+                <span class="services-block_number">05</span>
+                <img class="s-b_pict" src="images/seo.png" style="width: 60px; height: 60px;">
+            </div>            
+            <h3 class="s-b_title">SEO Promotion</h3>
+            <button id="btn05" class="s-b_description active">Read More</button>           
+            <div id="wrapper05" class="services-block_middle">                
+                <p class="s-b_description s-b_description-active">Selection of keywords that buyers enter, 
+                    work on external factors for 
+                    website promotion.</p>           
+                <button class="btn1 s-b_btn">
+                    <span class="btn_desc">Read More</span>
+                    <span class="btn_play s-b_btn-play"><i class="fa fa-play" aria-hidden="true"></i></span>
+                </button>
+            </div>
+        </div>    
+        <div class="services-block">
+            <div class="services-block_upper">
+                <span class="services-block_number">06</span>
+                <img class="s-b_pict" src="images/brain.png" style="width: 60px; height: 60px;">
+            </div>            
+            <h3 class="s-b_title">Logo Development</h3>
+            <button id="btn06" class="s-b_description active">Read More</button>
+            <div id="wrapper06" class="services-block_middle">                
+                <p class="s-b_description s-b_description-active">Development of a unique logo
+                    for your brand.</p>           
+                <button class="btn1 s-b_btn">
+                    <span class="btn_desc">Read More</span>
+                    <span class="btn_play s-b_btn-play"><i class="fa fa-play" aria-hidden="true"></i></span>
+                </button>
+            </div>
+        </div>
+        <div class="services-block">
+            <div class="services-block_upper">
+                <span class="services-block_number">07</span>
+                <img class="s-b_pict" src="images/dna.png" style="width: 60px; height: 60px;">
+            </div>            
+            <h3 class="s-b_title">Corporate Identity</h3>
+            <button id="btn07" class="s-b_description active">Read More</button>
+            <div id="wrapper07" class="services-block_middle">                
+                <p class="s-b_description s-b_description-active">Development of a unique corporate 
+                    identity for your brand</p>           
+                <button class="btn1 s-b_btn">
+                    <span class="btn_desc">Read More</span>
+                    <span class="btn_play s-b_btn-play"><i class="fa fa-play" aria-hidden="true"></i></span>
+                </button>
+            </div>
+        </div>
+        <div class="services-block services-block__last">
+            <div class="services-block_upper">
+                <span class="services-block_number">08</span>
+                <img class="s-b_pict" src="images/mob-app.png" style="width: 60px; height: 60px;">
+            </div>            
+            <h3 class="s-b_title">Mobile App Development</h3>
+            <button id="btn08" class="s-b_description active">Read More</button>
+            <div id="wrapper08" class="services-block_middle">                
+                <ul class="s-b_description s-b_description-active">
+                    <li>Android App Development</li>
+                    <li>iOS App Development</li>
+                </ul>           
+                <button class="btn1 s-b_btn">
+                    <span class="btn_desc">Read More</span>
+                    <span class="btn_play s-b_btn-play"><i class="fa fa-play" aria-hidden="true"></i></span>
+                </button>
+            </div>            
+        </div>
+        </div>
+    </section>
+    <section class="submit_forms">
+        <h3 class="submit_forms__title">SUBMIT YOUR APPLICATION</h3>
+        <div class="client">
+            <form class="client-forms">
+                <label class="client-info" for="name">Name</label>
+                <input class="client-info_frame" type="text" name="name">
+            </form>  
+            <form class="client-forms">
+                <label class="client-info" for="phone">Phone</label>
+                <input class="client-info_frame" type="tel" name="phone">
+            </form>
+            <form class="client-forms">    
+                <label class="client-info" for="email">E-mail</label>
+                <input class="client-info_frame" type="email" name="email">
+            </form>
+        </div>
+        <div class="client">
+            <form class="client-forms">
+                <label class="client-info client-info_services" for="service">Choose a service</label>
+                <select class="client-info_choise" name="services">
+                    <option class="client-info__select" selected><i class="fa fa-circle" aria-hidden="true"></i>
+                        ---</option>
+                    <option class="client-info__select"><i class="fa fa-circle" aria-hidden="true"></i>
+                        Website development</option>
+                    <option class="client-info__select"><i class="fa fa-circle" aria-hidden="true"></i>
+                        Mobile App Development </option>
+                    <option class="client-info__select"><i class="fa fa-circle" aria-hidden="true"></i>
+                        Landing Page </option>
+                    <option class="client-info__select"><i class="fa fa-circle" aria-hidden="true"></i>
+                        Shop development</option>
+                    <option class="client-info__select"><i class="fa fa-circle" aria-hidden="true"></i>
+                        Contextual advertising</option>
+                    <option class="client-info__select"><i class="fa fa-circle" aria-hidden="true"></i>
+                        SEO promotion</option>
+                    <option class="client-info__select"><i class="fa fa-circle" aria-hidden="true"></i>
+                        Logo development</option>
+                    <option class="client-info__select"><i class="fa fa-circle" aria-hidden="true"></i>
+                        Corporate Identity</option>
+                    <option class="client-info__select"><i class="fa fa-circle" aria-hidden="true"></i>
+                        Other...</option>
+                </select>
+            </form>  
+            <form class="client-forms">
+                <label class="client-info client-info_services" for="date">Preferred dates</label>
+                <input class="client-info_frame client-info_choise" type="date" name="date">
+            </form>
+            <form class="client-forms">    
+                <label class="client-info client-info_services" for="file">Attach a file</label>
+                <input class="client-info_frame client-info_choise" type="file" name="attach" value="choose file">
+            </form>
+        </div>
+        <div class="client-forms_messages">
+        <label class="client-info client-form_message" for="message">Your Message</label>
+        <textarea class="client-info_message client-info_frame"></textarea>
+        <input class="btn1 client-forms_submit" type="submit" value="submit">
+        </div>
+    </section>    
+    <script src="./js/modal.js"></script>    
+</body>
+</html>
